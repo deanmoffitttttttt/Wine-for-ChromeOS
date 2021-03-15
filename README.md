@@ -26,6 +26,6 @@ All these commands are already in *WineHQ_6.0_for_ChromeOS.bash*, though you can
 sudo dpkg --add-architecture i386 && wget -nc https://dl.winehq.org/wine-builds/winehq.key && sudo apt-key add winehq.key && echo "deb https://dl.winehq.org/wine-builds/debian/ buster main" | sudo tee /etc/apt/sources.list.d/wine.list && echo "deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10 ./" | sudo tee /etc/apt/sources.list.d/winehq.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DFA175A75104960E && sudo apt update && sudo apt install --install-recommends winehq-stable && winecfg
 ```
 
-## Additional resources
-- To learn more about Wine, visit winehq.org
+## Additional notes
+- To learn more about Wine, visit [winehq.org]
 - The original source is at [linuxmadesimple.info](https://www.linuxmadesimple.info/2021/01/how-to-use-and-install-wine-60-on.html)
