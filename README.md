@@ -17,7 +17,7 @@ ls <where the file is>
 chmod +x WineHQ_6.0_for_ChromeOS.bash
 ./WineHQ_6.0_for_ChromeOS.bash
 ```
-1. You will need to answer with "Y" when `--install-recommends winehq-stable` is ran.
+1. You will need to answer with "Y" when `sudo apt install --install-recommends winehq-stable` is ran.
 2. Wine will prompt you to install more packages such as the Microsoft .NET framework. This is required in order for Wine to work, you can just press "Install" on the prompts that appear (graphical).
 
 ## Download using terminal commands
