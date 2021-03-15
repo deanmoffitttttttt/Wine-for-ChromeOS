@@ -36,7 +36,7 @@ sudo dpkg --add-architecture i386 && wget -nc https://dl.winehq.org/wine-builds/
 E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
 E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
 ```
-or a similar error, it can be becsause something is using `/var/lib/dpkg/lock-frontend` in the background, which is required to install Wine. You can
+or a similar error, it can be becsause something is using `/var/lib/dpkg/lock-frontend` in the background, which is required to install Wine. You can:
 - Restart the process (or terminal)
 - Wait for it to finish
 
