@@ -30,6 +30,16 @@ All these commands are already in *WineHQ_6.0_for_ChromeOS.bash*, though you can
 sudo dpkg --add-architecture i386 && wget -nc https://dl.winehq.org/wine-builds/winehq.key && sudo apt-key add winehq.key && echo "deb https://dl.winehq.org/wine-builds/debian/ buster main" | sudo tee /etc/apt/sources.list.d/wine.list && echo "deb https://download.opensuse.org/repositories/Emulators:/Wine:/Debian/Debian_10 ./" | sudo tee /etc/apt/sources.list.d/winehq.list && sudo apt-key adv --keyserver keyserver.ubuntu.com --recv-keys DFA175A75104960E && sudo apt update && sudo apt install --install-recommends winehq-stable && winecfg
 ```
 
+## Troubleshooting
+- If you recieve this error:
+```
+E: Could not get lock /var/lib/dpkg/lock-frontend - open (11: Resource temporarily unavailable)
+E: Unable to acquire the dpkg frontend lock (/var/lib/dpkg/lock-frontend), is another process using it?
+```
+or a similar error, it can be becsause something is using `/var/lib/dpkg/lock-frontend` in the background, which is required to install Wine. You can
+- Restart the process (or terminal)
+- Wait for it to finish
+
 ## Additional notes
 - To learn more about Wine, visit [winehq.org](https://winehq.org)
 - The original source is at [linuxmadesimple.info](https://www.linuxmadesimple.info/2021/01/how-to-use-and-install-wine-60-on.html)
