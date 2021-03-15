@@ -20,9 +20,9 @@ chmod +x WineHQ_6.0_for_ChromeOS.bash
 1. You will need to answer with "Y" when `sudo apt install --install-recommends winehq-stable` is ran.
 2. Wine will prompt you to install more packages such as the Microsoft .NET framework. This is required in order for Wine to work, you can just press "Install" on the prompts that appear (graphical).
 
-`cd` changes the shell working directory.
-`chmod +x` allows the file to be executed.
-`./` runs the file.
+- `cd` changes the shell working directory.
+- `chmod +x` allows a file to be executed.
+- `./` executes a file.
 
 ## Download using terminal commands
 All these commands are already in *WineHQ_6.0_for_ChromeOS.bash*, though you can paste the commands yourself. Before you do this, you might want to run `sudo apt update` if you haven't run it in some time. Otherwise Wine might not work properly.
