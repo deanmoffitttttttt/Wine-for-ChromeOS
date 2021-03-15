@@ -27,5 +27,5 @@ sudo dpkg --add-architecture i386 && wget -nc https://dl.winehq.org/wine-builds/
 ```
 
 ## Additional notes
-- To learn more about Wine, visit [winehq.org]
+- To learn more about Wine, visit [winehq.org](https://winehq.org)
 - The original source is at [linuxmadesimple.info](https://www.linuxmadesimple.info/2021/01/how-to-use-and-install-wine-60-on.html)
