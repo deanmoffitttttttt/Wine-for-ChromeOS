@@ -8,7 +8,7 @@ This will only work on Chromebooks with an Intel or AMD CPU. You also need to ha
 3. Click "Turn on"
 4. A setup guide will appear. It will ask you how much storage you want to give the Linux virtual machine, we recommend 10GB as WineHQ is over 1GB (7GB at minimum, this will give you a little space for more apps later).
 
-Linux will now install. It can take a few minutes. When it's complete, the terminal will appear. You then have to run `sudo apt update`.
+Linux will now install. It can take a few minutes. When it's complete, the terminal will appear.
 
 ## Download Wine using the .bash file
 This makes the process automatic, all while installing the required services for WineHQ (stable). Download the file first, then run these commands:
